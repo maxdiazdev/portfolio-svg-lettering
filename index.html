@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Animating SVGs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <button type="button" onclick="thisVivus.reset().play()">Reset</button>
+    <div id="wrapper">
+      <h1>I make myself</h1>
+      <div id="richSVG"></div>
+      <h1>by making my wants<br><span>few.</span></h1>
+    </div>
+    <script src="js/vivus.min.js"></script>
+    <script>var thisVivus = new Vivus('richSVG', { type:'async', duration: 150, file: 'img/rich.svg', animTimingFunction: Vivus.EASE });</script>
+  </body>
+</html>

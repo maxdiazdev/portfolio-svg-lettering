@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: url(../img/rocks.jpg) no-repeat 50% 50% fixed;
+  background-size: cover;
+}
+
+body, h1 {
+  margin: 0;
+}
+
+h1 {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+h1:first-child {
+  top: -45px;
+}
+
+h1:last-child {
+  bottom: -50px;
+  line-height: 1.15;
+}
+
+span {
+  font-size: 2.2em;
+  padding-left: 15px;
+}
+
+button {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  color: white;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  padding: 12px 25px;
+  border: none;
+  border-bottom: 2px solid #917d14;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #E9D460, #ecda78);
+  cursor: pointer;
+}
+
+button:active {
+  top: 36px;
+  border-bottom: 2px solid #917d14;
+}
+
+#wrapper {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  width: 400px;
+  height: 277px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#richSVG {
+  width: 100%;
+  height: 297px;
+}
